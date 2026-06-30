@@ -12,6 +12,15 @@
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
     </style>
+    <script>
+        function changeImage(imageSrc) {
+            // Main image ko uski ID se dhoond kar uska source (src) badal raha hai
+            const mainImg = document.getElementById('mainImage');
+            if (mainImg) {
+                mainImg.src = imageSrc;
+            }
+        }
+    </script>
 </head>
 <body class="bg-gray-900 text-gray-100 antialiased selection:bg-purple-500 selection:text-white">
 
